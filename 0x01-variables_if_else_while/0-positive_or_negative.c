@@ -4,10 +4,10 @@
 
 /**
  * main - Entry point of the program
- * Returns: Always return 1
+ * Returns: Always return (0)
  */
 
-main(void)
+int main(void)
 {
 	int n;
 
