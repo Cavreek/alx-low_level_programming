@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - Entry point of the program
- * Returns: Always return (0)
+ * Return: Always return (0)
  */
 
 int main(void)
