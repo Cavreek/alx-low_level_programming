@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- * main - Entry point of the program
- * Return: 1
+ * main - Entry point
+ * Return: Always 1 (Success)
  */
 
 int main(void)
