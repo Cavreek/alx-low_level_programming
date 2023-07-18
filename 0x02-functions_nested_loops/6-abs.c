@@ -14,6 +14,5 @@ int _abs(int)
 	}
 	else
 	{
-		int bl = -al;
-		return (bl);
+		return (al * -1);
 	}
