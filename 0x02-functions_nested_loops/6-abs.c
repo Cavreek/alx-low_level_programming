@@ -10,10 +10,10 @@ int _abs(int)
 {
 	if (int al >= 0)
 	{
-		int bl = -al;
-
-		return (bl);
+		return (al);
 	}
 	else
-		return (al);
-}
+	{
+		int bl = -al;
+		return (bl);
+	}
