@@ -9,10 +9,7 @@
 int _abs(int al)
 {
 	if (al >= 0)
-	{
 		return (al);
-	}
 	else
-	{
 		return (al * -1);
-	}
+}
