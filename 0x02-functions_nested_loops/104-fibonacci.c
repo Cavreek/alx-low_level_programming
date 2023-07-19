@@ -7,15 +7,13 @@
 
 int main(void)
 {
-	long int h, i, j, sum1, hh, ii, sum2;
-	long int positive, positive2;
+	long int h, i, j, sum1, hh, ii, sum2, positive, positive2;
 
 
 	h = 1;
 	i = 2;
 	positive = positive2 = 1;
 	printf("%ld, %ld", h, i);
-
 	for (j = 0; j < 96; j++)
 	{
 		if (positive)
