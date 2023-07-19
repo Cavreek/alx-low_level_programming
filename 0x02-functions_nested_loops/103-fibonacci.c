@@ -7,28 +7,22 @@
 
 int main(void)
 {
-	long int i = 1;
-	long int j = 2;
-	long int k;
-	long int sum;
-	long int result = 0;
+	long int i, j, sum, result;
 
+	i = 1;
+	j = 2;
+	sum = result = 0;
 
-	for (k = 1; ;k++)
+	while (sum <= 4000000)
 	{
 		sum = i + j;
 		i = j;
 		j = sum;
-
-		if (sum > 4000000)
-			break;
-		else if (sum % 2 == 0)
+		if ((i % 2) == 0)
 		{
-			result += sum;
+			result += i;
 		}
 	}
-	printf("%ld", result);
-	printf("\n");
-
+	printf("%ld\n", result);
 	return (0);
 }
