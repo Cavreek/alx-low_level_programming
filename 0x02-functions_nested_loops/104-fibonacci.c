@@ -36,7 +36,7 @@ int main(void)
 				positive2 = 0;
 			}
 			sum2 = (hh + ii);
-			sum = h + i + (sum2 / 1000000000);
+			sum1 = h + i + (sum2 / 1000000000);
 			printf(", %ld", sum1);
 			printf("%ld", sum2 % 1000000000);
 			h = i;
