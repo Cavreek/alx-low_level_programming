@@ -24,7 +24,10 @@ void print_diagonal(int n)
 			_putchar('\\');
 
 			if (line == n - 1)
+			{
 				continue;
+			}
+			_putchar('\n');
 		}
 	}
 	_putchar('\n');
