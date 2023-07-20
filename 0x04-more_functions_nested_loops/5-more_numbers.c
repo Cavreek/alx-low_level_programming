@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	for (az = 0; az <= 9; az++)
 	{
-		for (bz = 0; bz <= 14; bz++)
+		for (bz = 0; bz < 14; bz++)
 			_putchar(bz);
 		_putchar(az);
 	}
