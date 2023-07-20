@@ -10,6 +10,6 @@ void print_numbers(void)
 	int al;
 
 	for (al = 0; al <= 57; al++)
-		_putchar(al + '0');
+		_putchar(al);
 	_putchar('\n');
 }
