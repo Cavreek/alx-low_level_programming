@@ -15,12 +15,10 @@ void print_diagonal(int n)
 	{
 		for (az = 1; az <= n; az++)
 		{
-			if (az == n)
-				_putchar(47);
-			else
-				_putchar(32);
-			_putchar('\n');
+			_putchar(47);
 		}
+		_putchar('\n');
+	}
 	else if (n <= 0)
 		_putchar('\n');
 	_putchar('\n');
