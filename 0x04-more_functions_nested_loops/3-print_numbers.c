@@ -7,7 +7,7 @@
 
 void print_numbers(void)
 {
-	char al;
+	int al;
 
 	for (al >= 48; al <= 57; al++)
 		_putchar(al);
