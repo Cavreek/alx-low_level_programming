@@ -1,1 +1,1 @@
-Debugging and fixing errors in c
+Debugging and fixing errors in c, using various techniques
