@@ -11,7 +11,6 @@ void print_triangle(int size)
 {
 	int az;
 	int bz;
-	int cz;
 
 	if (size > 0)
 	{
