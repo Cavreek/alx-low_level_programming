@@ -9,14 +9,7 @@
 
 int _strlen(char *s)
 {
-	int r;
+	int len;
 
-	for (r = 0; r <= *s; r++)
-	{
-		if (r < *s)
-			continue;
-		else if (r == s)
-			_putchar(r + '0');
-	}
-	_putchar('\n');
-}
+	for (len = 0; s[len] != '\0'; ++len)
+		return (len);
