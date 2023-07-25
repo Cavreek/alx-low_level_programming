@@ -9,31 +9,16 @@
 
 int main(void)
 {
-	int pasLen = 40;
-	char pass[passLen + 1];
-
-	char word;
-	char pass;
-
-	int senLen = 0;
-
-	while (word[senLen] != '\0')
-	{
-		senLen++;
-	}
+	int password = 10;
 
 	srand(time(0));
 
-	for (int i = 0; i < passLen; i++)
+	for (int i = 0; i < password; i++)
 	{
-		int ranIndex = rand() % senLen;
-
-		pass[i] = word[ranIndex];
+		return ((char)(rand() % 94 + 33));
 	}
 
-	pass[passLen] = '\0';
-
-	printf("%s\n", pass);
+	printf("\n");
 
 	return (0);
 }
