@@ -9,16 +9,20 @@
 
 int main(void)
 {
-	int password = 10;
+	int numPasswords = 10;
+	int passwordLength = 10;
 
 	srand(time(0));
 
-	for (int i = 0; i < password; i++)
+	for (int i = 0; i < numPasswords; i++)
 	{
-		return ((char)(rand() % 94 + 33));
+		for (int j = 0; j < passwordLength; j++)
+		{
+			char passwordChar = (char)(rand() % 94 + 33);
+
+			putchar(passwordChar);
+		}
+		putchar('\n');
 	}
-
-	printf("\n");
-
 	return (0);
 }
