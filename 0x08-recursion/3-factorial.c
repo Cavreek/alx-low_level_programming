@@ -4,8 +4,7 @@
   * factorial - returns the factorial of a given number
   * @n: number
   *
-  * Return: -1 indicating an error
-  	     0 on success
+  * Return: -1 indicating an error, 0 on success
   */
 
 int factorial(int n)
