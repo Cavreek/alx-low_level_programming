@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 int _strlen_recursion(char *s);
 int pa_lin(char *s, int l);
