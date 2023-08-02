@@ -23,7 +23,7 @@ int strlen_check(char *s)
 /**
  * pa_lin - palindrome
  * @s: pointer to string
- * @l: position
+ * @az: position
  *
  * Return: boolean
  */
