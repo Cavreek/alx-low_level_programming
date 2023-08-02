@@ -1,23 +1,23 @@
 #include "main.h"
 
-int _strlen_recursion(char *s);
-int pa_lin(char *s, int l);
+int strlen_check(char *s);
+int pa_lin(char *s, int az);
 int is_palindrome(char *s);
 
 /**
- * _strlen_recursion - size
+ * strlen_check - size
  * @s: pointer to string
  *
  * Return: recursion
  */
 
-int _strlen_recursion(char *s)
+int strlen_check(char *s)
 {
 	if (!*s)
 	{
 		return (0);
 	}
-	return (1 + _strlen_recursion(++s));
+	return (1 + strlen_check(++s));
 }
 
 /**
@@ -28,12 +28,12 @@ int _strlen_recursion(char *s)
  * Return: boolean
  */
 
-int pa_lin(char *s, int l)
+int pa_lin(char *s, int az)
 {
-	if (l < 1)
+	if (az < 1)
 		return (1);
-	if (*s == *(s + l))
-		return (p1(s + 1, l - 2));
+	if (*s == *(s + az))
+		return (pa_lin(s + 1, az - 2));
 	return (0);
 }
 
@@ -46,7 +46,7 @@ int pa_lin(char *s, int l)
 
 int is_palindrome(char *s)
 {
-	int len = _strlen_recursion(s);
+	int len = strlen_check(s);
 
-	return (p1(s, len - 1));
+	return (pa_lin(s, len - 1));
 }
